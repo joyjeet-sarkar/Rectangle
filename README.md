@@ -63,7 +63,7 @@ A window is in the stack when it sits at the same position as the window focused
 
 ### Turbo Mode
 
-Turbo Mode arranges every window of the frontmost app into eighths in one press. In Settings > General, click **Extras** to assign a key to **Turbo Mode**. For example, with five Ghostty windows open, pressing it fills the top row of four cells and the bottom-left cell. Windows of other apps stay in place.
+Turbo Mode arranges every window of the frontmost app into eighths in one press. In Settings > General, assign a key to **Turbo Mode** in the shortcut list. For example, with five Ghostty windows open, pressing it fills the top row of four cells and the bottom-left cell. Windows of other apps stay in place.
 
 Turbo Mode uses the display containing the focused window, or the display under the mouse pointer when no ordinary window is focused. It includes the app's windows in the current Space on that display, even when other windows cover them. Minimized windows, hidden apps, and the Todo window are left alone. Windows fill the cells in reading order of their upper-left positions, so pressing it again keeps each window in its cell. A ninth window goes back to the first cell, a tenth to the second, and so on. On a landscape display the grid is 4 columns by 2 rows; on a portrait display it is 2 columns by 4 rows. Screen-edge gaps apply as they do for the eighths shortcuts. **Restore** returns each window to its frame before the first press. When the app has no windows to arrange, Rectangle beeps.
 

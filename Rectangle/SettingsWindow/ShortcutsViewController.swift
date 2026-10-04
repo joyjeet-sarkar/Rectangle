@@ -301,7 +301,8 @@ class ShortcutsViewController: NSViewController {
             ShortcutCategory(actions: [.leftHalf, .rightHalf, .centerHalf, .topHalf, .bottomHalf]),
             ShortcutCategory(actions: [.topLeft, .topRight, .bottomLeft, .bottomRight]),
             ShortcutCategory(actions: [.maximize, .almostMaximize, .maximizeHeight, .larger, .smaller, .center, .restore]),
-            ShortcutCategory(actions: [.nextDisplay, .previousDisplay])
+            ShortcutCategory(actions: [.nextDisplay, .previousDisplay]),
+            ShortcutCategory(actions: [.turboMode])
         ]
         
         let moreCategories: [ShortcutCategory] = [
@@ -317,7 +318,6 @@ class ShortcutsViewController: NSViewController {
         
         let extraCategories: [ShortcutCategory] = [
             ShortcutCategory(actions: [.tileRows, .tileColumns]),
-            ShortcutCategory(actions: [.turboMode]),
             ShortcutCategory(actions: [.largerWidth, .smallerWidth]),
             ShortcutCategory(actions: [.topVerticalThird, .middleVerticalThird, .bottomVerticalThird, .topVerticalTwoThirds, .bottomVerticalTwoThirds]),
             ShortcutCategory(actions: [.topLeftEighth, .topCenterLeftEighth, .topCenterRightEighth, .topRightEighth, .bottomLeftEighth, .bottomCenterLeftEighth, .bottomCenterRightEighth, .bottomRightEighth]),
