@@ -172,7 +172,9 @@
 		AC0200030000000000000001 /* WindowAnimationCurves.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0200030000000000000002 /* WindowAnimationCurves.swift */; };
 		AF09A0000000000000000001 /* GridTiling.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF09A0000000000000000002 /* GridTiling.swift */; };
 		AF0CA11E0000000000000001 /* StackCycleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF0CA11E0000000000000002 /* StackCycleManager.swift */; };
+		AF7B0E000000000000000001 /* TurboModeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B0E000000000000000002 /* TurboModeManager.swift */; };
 		AF09A0000000000000000003 /* GridTilingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF09A0000000000000000004 /* GridTilingTests.swift */; };
+		AF7B0E000000000000000003 /* TurboModeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF7B0E000000000000000004 /* TurboModeTests.swift */; };
 		AF09B1000000000000000001 /* DisplayTransfer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF09B1000000000000000002 /* DisplayTransfer.swift */; };
 		AF09B1000000000000000003 /* DisplayTransferTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF09B1000000000000000004 /* DisplayTransferTests.swift */; };
 		B4521F932BD7CEFB00FD43CC /* ChangeWindowDimensionCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4521F922BD7CEFB00FD43CC /* ChangeWindowDimensionCalculation.swift */; };
@@ -409,7 +411,9 @@
 		AC0200030000000000000002 /* WindowAnimationCurves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowAnimationCurves.swift; sourceTree = "<group>"; };
 		AF09A0000000000000000002 /* GridTiling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTiling.swift; sourceTree = "<group>"; };
 		AF0CA11E0000000000000002 /* StackCycleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCycleManager.swift; sourceTree = "<group>"; };
+		AF7B0E000000000000000002 /* TurboModeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboModeManager.swift; sourceTree = "<group>"; };
 		AF09A0000000000000000004 /* GridTilingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridTilingTests.swift; sourceTree = "<group>"; };
+		AF7B0E000000000000000004 /* TurboModeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurboModeTests.swift; sourceTree = "<group>"; };
 		AF09B1000000000000000002 /* DisplayTransfer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTransfer.swift; sourceTree = "<group>"; };
 		AF09B1000000000000000004 /* DisplayTransferTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayTransferTests.swift; sourceTree = "<group>"; };
 		B4521F922BD7CEFB00FD43CC /* ChangeWindowDimensionCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeWindowDimensionCalculation.swift; sourceTree = "<group>"; };
@@ -497,6 +501,7 @@
 				FDE8FCDF27C2950400EACCAA /* MultiWindowManager.swift */,
 				AF09A0000000000000000002 /* GridTiling.swift */,
 				AF0CA11E0000000000000002 /* StackCycleManager.swift */,
+				AF7B0E000000000000000002 /* TurboModeManager.swift */,
 			);
 			path = MultiWindow;
 			sourceTree = "<group>";
@@ -749,6 +754,7 @@
 			children = (
 				9824701F22AF9B7E0037B409 /* RectangleTests.swift */,
 				AF09A0000000000000000004 /* GridTilingTests.swift */,
+				AF7B0E000000000000000004 /* TurboModeTests.swift */,
 				AF09B1000000000000000004 /* DisplayTransferTests.swift */,
 				944F25D02CE5A144004B2FD2 /* ShortcutRecordingObserverTests.swift */,
 				de0950b8b00f40308934a523 /* JSONDefaultTests.swift */,
@@ -1028,6 +1034,7 @@
 				FDE8FCE027C2950400EACCAA /* MultiWindowManager.swift in Sources */,
 				AF09A0000000000000000001 /* GridTiling.swift in Sources */,
 				AF0CA11E0000000000000001 /* StackCycleManager.swift in Sources */,
+				AF7B0E000000000000000001 /* TurboModeManager.swift in Sources */,
 				98192DDA270F606C00015E66 /* Debounce.swift in Sources */,
 				D04CE3002781794E00BD47B3 /* TopLeftNinthCalculation.swift in Sources */,
 				9821403122B38A0500ABFB3F /* TopHalfCalculation.swift in Sources */,
@@ -1190,6 +1197,7 @@
 			files = (
 				9824702022AF9B7E0037B409 /* RectangleTests.swift in Sources */,
 				AF09A0000000000000000003 /* GridTilingTests.swift in Sources */,
+				AF7B0E000000000000000003 /* TurboModeTests.swift in Sources */,
 				AF09B1000000000000000003 /* DisplayTransferTests.swift in Sources */,
 				944F25D12CE5A144004B2FD2 /* ShortcutRecordingObserverTests.swift in Sources */,
 				01f52cab9bce43359775bdd7 /* JSONDefaultTests.swift in Sources */,

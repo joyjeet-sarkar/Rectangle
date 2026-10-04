@@ -48,6 +48,9 @@ class MultiWindowManager {
         case .cycleStackedWindowsBackward:
             StackCycleManager.cycle(forward: false, windowElement: parameters.windowElement)
             return true
+        case .turboMode:
+            TurboModeManager.arrange()
+            return true
         default:
             return false
         }
